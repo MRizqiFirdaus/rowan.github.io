@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rowan Atkinson</title>
+</head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.Profile {
+    background-color: rgb(242, 242, 242); text-align: center;
+    padding: 20px;
+}
+</style>
+<body>
+    <header>
+        <h1>Blog Pribadi Rowan Atkinson</h1>
+        <hr>
+        <div class="Profile">
+        <img src="images/Rowan Atkinson.jpeg" alt="Rowan Atkinson"><br>
+        <p>Halo! ini blog pribadi Rowan Atkinson</p>
+        </div>
+        <table>
+  <tr>
+    <th>Nama Asli</th>
+    <th>Rowan Sebastian Atkinson</th>
+  </tr>
+  <tr>
+    <td>Nama Terkenal</td>
+    <td>Mr.Bean, Johnny English</td>
+  </tr>
+  <tr>
+    <td>Tanggal Lahir</td>
+    <td>6 Januari 1955</td>
+  </tr>
+  <tr>
+    <td>Tempat Lahir</td>
+    <td>Consett, County Durham, Inggris</td>
+  </tr>
+  <tr>
+    <td>Profesi</td>
+    <td>Aktor, Pelawak tunggal, Penulis</td>
+  </tr>
+  <tr>
+    <td>Karya</td>
+    <td>Blackadder</td>
+  </tr>
+    <tr>
+    <td>Tinggi</td>
+    <td>181 m</td>
+  </tr>
+</table>
+<hr>
+    </header>
+    <main>
+        <article>
+            <h2>Perjalanan Karir</h2>
+            <p><small>Diposting pada <time datetime="2025-09-05">05 September 2025</time></small>
+            </p>
+            <p>
+                ia mulai muncul di televisi pada acara Not the Nine O'Clock News, diikuti dengan The Black Adder, dan kemudian Mr. Bean. Atkinson telah membintangi iklan untuk Hitachi, Fujifilm, donor darah, dan Barclaycard. Selain itu ia muncul dalam film-film Never Say Never Again, Four Weddings and a Funeral, The Lion King, Rat Race, Love Actually, dan memainkan peran utama dalam Bean, Mr. Bean's Holiday, dan Johnny English.
+            </p>
+            <h2>Quote dari Rowan Atkinson</h2>
+            <p>
+            “The right to offend is far more important than the right not to be offended.”
+            ("Hak untuk menyinggung jauh lebih penting daripada hak untuk tidak tersinggung.")
+                <br>
+                <br>
+            </p>
+            <h2>Fun Fact</h2>
+            <p>
+                -Gila mobil – Rowan adalah kolektor mobil sport, termasuk Aston Martin, McLaren F1, dan Rolls-Royce.
+
+                <br>-Pernah kecelakaan parah – Ia pernah menabrakkan McLaren F1 miliknya (mobil super langka dan mahal). untungnya dia selamat.
+
+                <br>-Suka balapan – Selain kolektor, Rowan juga hobi ikut ajang balapan mobil.
+            </p>
+                <h2>Film yang Jarang Diketahui</h2>
+                <dl>
+                    <dt>1.Dead on Time (1983)</dt>
+                    <dd>Film pendek komedi, Rowan berperan sebagai pria yang diberi tahu hanya punya 30 menit untuk hidup.
+                        Gaya slapstick-nya sudah mulai terlihat di sini.</dd>
+                    <dt>2.Never Say Never Again (1983)</dt>
+                    <dd>Film James Bond (non-EON).
+                        <br>Rowan tampil sebagai Nigel Small-Fawcett, seorang pegawai konsulat yang kikuk — ini salah satu peran awalnya di layar lebar.</dd>
+                    <dt>3.The Tall Guy (1989)</dt>
+                    <dd>Komedi romantis bersama Jeff Goldblum dan Emma Thompson.
+                        <br>Rowan jadi komedian egois bernama Ron Anderson.</dd>
+                    <dt>4.Four Weddings and a Funeral (1994)</dt>
+                    <dd>Film populer, tapi banyak yang lupa Rowan ikut main.
+                        <br>Ia berperan sebagai pendeta gugup dalam salah satu adegan pernikahan.</dd>
+                    <dt>5.Keep an Eye on the Ball (1989, TV movie)</dt>
+                    <dd>Film TV yang kurang terkenal, menampilkan Rowan dalam sketsa komedi.</dd>
+                    <dt>6.Full Throttle (1995, TV Movie)</dt>
+                    <dd>Drama TV tentang pembalap Inggris Henry Birkin.
+                        <br>Jarang banget disebut karena ini bukan film komedi, melainkan drama serius.</dd>
+                    <dt>7.Maybe Baby (2000)</dt>
+                    <dd>Komedi romantis tentang pasangan yang kesulitan punya anak. Rowan muncul sebagai dokter eksentrik.</dd>
+                </dl>
+            </div>
+        </article>
+        <section>
+            <h2>Tinggalkan Pesan :</h2>
+            <form action="/submit-comment" method="post">
+                <label for="nama">Nama:</label><br>
+                <input type="text" id="nama" name="nama" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="komentar">Pesan:</label><br>
+                <textarea id="komentar" name="komentar" rows="5" cols="40" placeholder="Tulis pesan anda di sini..."></textarea><br><br>
+                <label for="rating">Mood Hari Ini:</label>
+                <select id="rating" name="rating">
+                    <option value="5">Sangat Bahagia</option>
+                    <option value="4">Senang</option>
+                    <option value="3">Biasa Saja</option>
+                    <option value="2">Sedih</option>
+                    <option value="1">Sangat Sedih</option>
+                </select><br><br>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+    </main>
+      <footer>
+        <hr>
+        <p><small>Hak Cipta &copy; Muhammad Rizqi Firdaus</small></p>
+    </footer>
+
+</body>
+</html>
